@@ -1,0 +1,57 @@
+/* Color Theme Swatches in Hex */
+.Big-Machine-1-hex { color: #BD2A2E; }
+.Big-Machine-2-hex { color: #3B3936; }
+.Big-Machine-3-hex { color: #B2BEBF; }
+.Big-Machine-4-hex { color: #889C9B; }
+.Big-Machine-5-hex { color: #486966; }
+/*Base*/
+body {
+    background-color: whitesmoke;
+    margin: 0;
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    background-color: #BD2A2E;
+    color: white;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin: 0;
+    padding: 1%;
+    background-color: whitesmoke;
+    width: 50%;
+    justify-self: center;
+}
+
+section article figure{
+    margin: 0;
+    padding: 0;
+}
+
+section p {
+    text-align: justify;
+}
+
+section, aside {
+    padding: 2%;
+}
+
+#article-image {
+    margin-right: 2%;
+    float: left;
+    width: 60%;
+    height: auto;
+}
+
+footer {
+    background-color: #B2BEBF;
+    justify-items: center;
+    width: 100%;
+}
